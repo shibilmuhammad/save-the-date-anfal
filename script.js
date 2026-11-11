@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const text2Element = document.getElementById('typing-text-2');
     const openBtn = document.getElementById('open-invitation-btn');
     
-    const text1 = "Anfal k & Shareena";
+    const text1 = "Anfal  & Shareena";
     const text2 = "Our wedding on 20th December 2026";
     
     function typeWriter(text, i, element, callback) {
