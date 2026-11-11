@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const text2Element = document.getElementById('typing-text-2');
     const openBtn = document.getElementById('open-invitation-btn');
     
-    const text1 = "Aslam & Kadeeja Hanna";
-    const text2 = "Our wedding on 27th September 2026";
+    const text1 = "Anfal k & Shareena B";
+    const text2 = "Our wedding on 20th December 2026";
     
     function typeWriter(text, i, element, callback) {
         if (i < text.length) {
@@ -80,8 +80,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     requestAnimationFrame(raf);
 
-    // Countdown Logic (27th September 2026 at 11:00 AM)
-    const targetDate = new Date("September 27, 2026 11:00:00").getTime();
+    // Countdown Logic (20th December 2026 at 11:00 AM)
+    const targetDate = new Date("December 20, 2026 11:00:00").getTime();
 
     const updateCountdown = () => {
         const now = new Date().getTime();
