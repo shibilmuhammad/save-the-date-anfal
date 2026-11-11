@@ -889,43 +889,6 @@ html.lenis {
     text-transform: uppercase;
 }
 
-/* Invitation Card Showcase */
-.invitation-card-section {
-    padding: 1rem 0 3.5rem;
-    text-align: center;
-}
-
-.invitation-card-subtitle {
-    font-size: 0.9rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--accent-color);
-    margin-top: -0.8rem;
-    margin-bottom: 2rem;
-}
-
-.card-display {
-    max-width: 440px;
-    margin: 0 auto;
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.12);
-    border: 3px solid rgba(212, 175, 55, 0.35);
-    background: #fff;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-}
-
-.card-display:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 25px 55px rgba(212, 175, 55, 0.22);
-}
-
-.invitation-poster {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
 /* Invitegram Branding Badge */
 .invitegram-badge {
     margin-top: 2rem;
